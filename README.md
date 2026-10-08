@@ -5,7 +5,7 @@
 ---
 
 ## 🌟 Live Application
-- **Live URL:** [https://ais-pre-jjdy4x7sg6v3ajyj36sb3g-924322689984.asia-east1.run.app](https://ais-pre-jjdy4x7sg6v3ajyj36sb3g-924322689984.asia-east1.run.app)
+- **Live URL:** https://event-handle.netlify.app/
 - **Tech Stack:** React 19, JavaScript (ES2022 / JSX), Tailwind CSS v4, Vite, Lucide Icons
 
 ---
@@ -137,34 +137,3 @@ Open **`http://localhost:3000`** in your browser.
 
 ---
 
-## 📹 Video Walkthrough Outline
-
-For your submission video walkthrough, use this 3-minute structure:
-
-1. **Introduction (0:00 - 0:30):**
-   - Introduce DevBoard: A responsive discovery web application for developer events, workshops, and hackathons.
-   - Mention the tech stack: React 19, JavaScript, Tailwind CSS v4, Vite.
-2. **Core Features Walkthrough (0:30 - 1:30):**
-   - Demo case-insensitive search (e.g. search "React" or "Rust").
-   - Demo category dropdown (Hackathons, Workshops, etc.) and format dropdowns.
-   - Show how search and dropdown filters work seamlessly together.
-   - Demo saving/removing favourites with immediate toast feedback and counter updates.
-3. **Event Details & Bonus Features (1:30 - 2:30):**
-   - Open an event modal: demonstrate agenda, speakers, Google Calendar sync, and `.ics` file download.
-   - Open the dedicated Saved drawer: demonstrate quick removal and clear-all action.
-   - Demonstrate the dark/light mode toggle.
-   - Show responsiveness by resizing the browser down to mobile viewport (375px).
-4. **Technical Decisions & Challenges (2:30 - 3:00):**
-   - Highlight the modular component architecture.
-   - Mention $O(1)$ Set-backed deduplication and single-pass memoized filter pipeline.
-   - Disclose AI usage transparently.
-
----
-
-## 🤖 AI Usage Declaration
-
-Assisted by Google AI Studio agent tooling for:
-- Initial architectural blueprint and component layout scaffolding.
-- Generating high-resolution domain visual banners for tech categories.
-- Edge-case testing (e.g. mobile touch targets, zero-results states, and peer dependency resolution).
-- All application code, state logic, styling, and JavaScript conversions were thoroughly reviewed and verified.
