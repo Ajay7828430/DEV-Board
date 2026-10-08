@@ -1,0 +1,6 @@
+{
+  "name": "DevBoard - Tech Events & Hackathons Discovery",
+  "description": "Discover upcoming developer events, hands-on workshops, conferences, and hackathons with real-time search, category filtering, and favourites management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
